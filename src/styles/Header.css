@@ -1,0 +1,15 @@
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.h1{
+  font-weight: bold;
+  font-stretch: expanded;
+  padding: 7px;
+  font-size: 30px;
+  font-family: sans-serif;
+
+}
