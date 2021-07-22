@@ -21,9 +21,9 @@ export default function Projects() {
     </Card.Text>
     <Card.Link href="https://github.com/Weird-but-Doable/SkewedNews">Link to this application</Card.Link>
   </Card.Body>
+</Card>
 
-
-</Card><Card style={{ width: '18rem' }}>
+<Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://images.pexels.com/photos/158771/notebook-pen-table-blank-158771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
   <Card.Body>
     <Card.Title>Note Taker</Card.Title>
@@ -34,6 +34,20 @@ export default function Projects() {
     <Card.Link href="https://github.com/AliciaJK/NoteTaker">Link to the GitHub Repository</Card.Link>
   </Card.Body>
 </Card> 
+
+
+<Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://images.pexels.com/photos/158771/notebook-pen-table-blank-158771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+  <Card.Body>
+    <Card.Title>Note Taker</Card.Title>
+    <Card.Text>
+      The progressive budget is a progressive web application that takes in values, on or offline and updates the database when the application is back online.
+    </Card.Text>
+    <Card.Link href="https://github.com/AliciaJK/ProgressiveBudget">Link to the GitHub Repository</Card.Link>
+  </Card.Body>
+</Card> 
+
+
 
 
 </div>
