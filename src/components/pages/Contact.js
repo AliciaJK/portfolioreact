@@ -11,7 +11,7 @@ export default function Contact() {
   <Card.Img variant="top" src="https://1000logos.net/wp-content/uploads/2017/03/Linkedin-Logo.png" />
   <Card.Body>
     <Card.Title>My LinkedIn</Card.Title>
-    <Card.Link href="https://www.linkedin.com/in/aliciakrolak/">Click to view</Card.Link>
+    <Card.Link href="https://www.linkedin.com/in/aliciakrolak/">Click to go to LinkedIn</Card.Link>
   </Card.Body>
 </Card>
 
@@ -19,7 +19,7 @@ export default function Contact() {
   <Card.Img variant="top" src="https://image.flaticon.com/icons/png/512/25/25231.png" />
   <Card.Body>
     <Card.Title>My GitHub</Card.Title>
-    <Card.Link href="http://www.github.com/aliciajk">Click to view</Card.Link>
+    <Card.Link href="http://www.github.com/aliciajk">Click to go to GitHub</Card.Link>
   </Card.Body>
 </Card>
 
