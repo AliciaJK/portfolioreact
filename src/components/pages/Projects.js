@@ -37,9 +37,9 @@ export default function Projects() {
 
 
 <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://images.pexels.com/photos/158771/notebook-pen-table-blank-158771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+  <Card.Img variant="top" src="https://images.pexels.com/photos/259165/pexels-photo-259165.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
   <Card.Body>
-    <Card.Title>Note Taker</Card.Title>
+    <Card.Title>Progressive Web App Budget Tracker</Card.Title>
     <Card.Text>
       The progressive budget is a progressive web application that takes in values, on or offline and updates the database when the application is back online.
     </Card.Text>
@@ -47,9 +47,38 @@ export default function Projects() {
   </Card.Body>
 </Card> 
 
+<Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://images.pexels.com/photos/1181304/pexels-photo-1181304.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+  <Card.Body>
+    <Card.Title>Employee Tracker</Card.Title>
+    <Card.Text>
+    This tool is an employee management system that allows a user to add employees, add roles, add departments, edit an employees role, view employees, view departments and view roles.
+    </Card.Text>
+    <Card.Link href="https://github.com/AliciaJK/EmployeeTracker">Link to the GitHub Repository</Card.Link>
+  </Card.Body>
+</Card> 
 
+<Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+  <Card.Body>
+    <Card.Title>Team Profile Generator</Card.Title>
+    <Card.Text>
+    This tool generates an HTML page for input of a team profile.
+    </Card.Text>
+    <Card.Link href="https://github.com/AliciaJK/TeamProfileGenerator">Link to the GitHub Repository</Card.Link>
+  </Card.Body>
+</Card> 
 
-
+<Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://images.pexels.com/photos/419635/notebook-empty-design-paper-419635.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+  <Card.Body>
+    <Card.Title>Code Quiz</Card.Title>
+    <Card.Text>
+    A front end JavaScript application. 
+    </Card.Text>
+    <Card.Link href="https://github.com/AliciaJK/CodeQuiz">Link to the GitHub Repository</Card.Link>
+  </Card.Body>
+</Card> 
 </div>
   
   ); 
