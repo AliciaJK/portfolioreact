@@ -1,11 +1,12 @@
 import React from 'react';
+import '../styles/Background.css';
 
 // TODO: Add a comment explaining how we are able to extract the key value pairs from props
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul className="nav nav-tabs ">
+      <li className="nav-item  ">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -16,7 +17,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About Me
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item ">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}

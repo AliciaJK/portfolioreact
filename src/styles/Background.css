@@ -1,0 +1,64 @@
+/* Start background code*/ 
+:root {
+    --angle: 0deg;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background: #fff;
+    min-height: 100vh;
+  }
+  
+  .bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background: linear-gradient(45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c97822 100%);
+    animation: gradient-change 5s linear infinite;
+  }
+  
+  .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container2 .headerBox {
+    text-transform: capitalize;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+    margin: 1rem;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 2px 5px #0005;
+  }
+  
+  @keyframes gradient-change {
+    0% {
+      filter: hue-rotate(0deg) brightness(1);
+    }
+    100% {
+      filter: hue-rotate(90deg) brightness(1.5);
+    }
+    100% {
+      filter: hue-rotate(360deg) brightness(1);
+    }
+  }
+  
+  /* end background code. Courtesy of https://codepen.io/malbarmavi/pen/NWbgbOq*/
+  
+  

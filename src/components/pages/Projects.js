@@ -1,14 +1,15 @@
 import React from 'react';
-import Card from 'react-bootstrap/card'
-import CardGroup from 'react-bootstrap/cardgroup'
+import Card from 'react-bootstrap/card';
+import CardGroup from 'react-bootstrap/cardgroup';
+import '../../styles/Background.css';
 // import Card from 'react-bootstrap/card'
 // import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
 
 export default function Projects() {
   return (
-    <div>
-      <h1>Projects Page</h1>
+    <div class=''>
+      <h1 style={{margin: '10px'}}>Projects</h1>
       <p>
         Here are some of my latest projects: 
 </p>
@@ -47,6 +48,9 @@ export default function Projects() {
     <Card.Link href="https://github.com/AliciaJK/ProgressiveBudget">Link to the GitHub Repository</Card.Link>
   </Card.Body>
 </Card> 
+</CardGroup>
+
+<CardGroup>
 
 <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://images.pexels.com/photos/1181304/pexels-photo-1181304.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />

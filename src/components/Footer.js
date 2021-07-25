@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Header.css';
+import '../styles/Footer.css';
 
 // By importing the Header.css file, it is added to the DOM whenever this component loads
 
@@ -22,7 +22,11 @@ const styles = {
 function Footer() {
   return (
     <header style={styles.footerStyle} className="footer">
-      <h1 style={styles.h1Style}>@aliciajk</h1>
+            <ul>
+                <a href="mailto:aliciajkrolak@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/aliciakrolak/">LinkedIn</a>
+                <a href="http://www.github.com/aliciajk">Github</a>
+            </ul>
     </header>
   );
 }
